@@ -28,6 +28,6 @@ int main(){
     }
 
     // last element of the array
-    printf("Last element of the array: %d\n", marks[3]); // Print the last element of the array
+    printf("Last element of the array: %d\n", marks[4]); // Print the last element of the array
     return 0;
 }

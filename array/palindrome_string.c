@@ -1,0 +1,4 @@
+/*
+Write a program in C to read a string and store it into a character array.
+Check whether the string is a palindrome or not and display accordingly
+*/
