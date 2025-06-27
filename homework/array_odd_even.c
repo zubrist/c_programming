@@ -1,0 +1,4 @@
+/*
+Count the number of odd and even numbers in an array.
+print the count of odd and even numbers.
+*/

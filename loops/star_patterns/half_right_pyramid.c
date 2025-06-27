@@ -1,3 +1,15 @@
+/*
+
+*    
+**   
+***  
+**** 
+*****
+
+*/
+
+
+
 #include<stdio.h>
 int main(){
 
@@ -7,7 +19,7 @@ int main(){
     for(int i=1; i<=row;i++){ // i = 1 
 
         for(int j=1; j<=col; j++){ // j = 2
-            if(j>=6-i){
+            if(j<=i){
                 printf("*"); // print star
             }
             else{
