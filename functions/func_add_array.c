@@ -22,7 +22,7 @@ int addTwoArrays(int arr1, int arr2);
 #include <stdio.h>
 
 
-void add_two_arrays(int arr1[], int arr2[],int size){ // 1| 2 | 3 | 4| 5      6 | 7 |8 |9| 10  =>  7|9|..|..|..   // int size = sizeof(arr1) / sizeof(arr1[0]); // Calculate the size of the arrays
+void add_two_arrays(int arrx[], int arry[],int size){ // 1| 2 | 3 | 4| 5      6 | 7 |8 |9| 10  =>  7|9|..|..|..   // int size = sizeof(arr1) / sizeof(arr1[0]); // Calculate the size of the arrays
     
     int sum_arr[size];
 
