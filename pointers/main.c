@@ -32,7 +32,7 @@ int main(){
 
 
     printf("Age: %d\n", age); // Output: Age: 26
-     printf("Value at Age Pointer: %d\n", *agePtr); // Output: Value at Age Pointer: 26
+    printf("Value at Age Pointer: %d\n", *agePtr); // Output: Value at Age Pointer: 26
     printf("Age Pointer: %p\n", agePtr); // Output: Age Pointer: 0061FF1C
    
 }
