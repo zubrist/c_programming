@@ -30,9 +30,9 @@ int main(){
     }
     //
     // new size
-    int n2 = 10; // replace this with user input
+    int n2 = 20; // replace this with user input
 
-    arr = (int*) realloc(arr, n2 *sizeof(int)); // Reallocating memory to hold 10 integers
+    arr = (int*) realloc(arr, n2 * sizeof(int)); // Reallocating memory to hold 10 integers
     // what is reallocation failes 
     if(arr == NULL){
         printf("Memory reallocation failed\n");
@@ -40,7 +40,7 @@ int main(){
     }
     // Initializing the new elements
     for (int i = 5; i < n2; i++) {
-        arr[i] = i + 1; // Assigning values 6 to 10
+        arr[i] = i + 1; // Assigning values 6 to 20
         printf("arr[%d] = %d\n", i, arr[i]);
     }
 
