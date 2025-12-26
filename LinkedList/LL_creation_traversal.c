@@ -45,7 +45,10 @@ int main(){
     three =(struct Node*)  malloc(sizeof(struct Node));
 
     //assigining values
-    one-> data = 5;
+    /*
+         first = 10
+    */
+    one-> data = 5; //= first
     two-> data = 7;
     three-> data = 10;
 
@@ -57,7 +60,7 @@ int main(){
 
     head = one ;
 
-    display(one);
+    display(head);
 
     return 0;
 }
