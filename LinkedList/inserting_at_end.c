@@ -25,7 +25,7 @@ struct Node{
 
 
 // traverse the linked list
-void display(struct Node* next)
+void display(struct Node * next)
 {   
     while(next != NULL){
         printf("%d ->", next->data);
