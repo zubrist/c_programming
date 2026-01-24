@@ -221,6 +221,43 @@
 			"typeName": "shape"
 		},
 		{
+			"x": 58.43526182924148,
+			"y": 618.1035200456845,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:4--qpSphrbuTKRxE383j3",
+			"type": "geo",
+			"props": {
+				"w": 1046.2303022291767,
+				"h": 94.64673953381498,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aAKNQdiV",
+			"typeName": "shape"
+		},
+		{
 			"x": 614.6666717529297,
 			"y": 141.3333282470703,
 			"rotation": 0,
@@ -312,9 +349,9 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 55.614836235210646,
-			"y": 54.83987920945323,
-			"z": 0.7843801756811984,
+			"x": 300.966602970965,
+			"y": -367.41752567666526,
+			"z": 0.5212364259990666,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -455,9 +492,9 @@
 			"editingShapeId": null,
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:NeGNp6N3oxEYFcnF3Ioid"
+				"shape:4--qpSphrbuTKRxE383j3"
 			],
-			"hoveredShapeId": "shape:NeGNp6N3oxEYFcnF3Ioid",
+			"hoveredShapeId": "shape:4--qpSphrbuTKRxE383j3",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -467,8 +504,8 @@
 			"typeName": "instance_page_state"
 		},
 		{
-			"x": 322.18684602350106,
-			"y": 505.56790829696354,
+			"x": 49.75774782636904,
+			"y": 325.2275098663687,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -722,8 +759,7 @@
 			"followingUserId": null,
 			"opacityForNextShape": 1,
 			"stylesForNextShape": {
-				"tldraw:geo": "rectangle",
-				"tldraw:color": "yellow"
+				"tldraw:geo": "rectangle"
 			},
 			"brush": null,
 			"scribbles": [],
@@ -738,8 +774,8 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 1038,
-				"h": 435.3333435058594
+				"w": 1012,
+				"h": 433.3333435058594
 			},
 			"insets": [
 				false,

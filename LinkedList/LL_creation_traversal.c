@@ -19,11 +19,11 @@ ___________
 
 struct Node{
     int data;           
-    struct Node *ptr;
+    struct Node * ptr;
 }; 
 
 
-void display(struct Node* next)
+void display(struct Node * next)
 {
     while(next != NULL){
         printf("%d ->", next->data);
@@ -34,12 +34,14 @@ void display(struct Node* next)
 int main(){
 
     // initialize nodes
-    struct Node *head= NULL;
+    struct Node *head= NULL; 
     struct Node *one = NULL;
     struct Node *two = NULL;
     struct Node *three = NULL;
 
+   
     // allocating memory
+    head = (struct Node*) malloc(sizeof(struct Node));
     one =(struct Node*)  malloc(sizeof(struct Node));
     two =(struct Node*)  malloc(sizeof(struct Node));
     three =(struct Node*)  malloc(sizeof(struct Node));
@@ -60,7 +62,7 @@ int main(){
 
     head = one ;
 
-    display(head);
+    display(head);// priting the linkedList
 
     return 0;
 }
