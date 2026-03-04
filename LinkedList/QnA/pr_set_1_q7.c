@@ -7,8 +7,6 @@ handled accordingly.
 (b) Display the list.
 
 
-make it menu driven program to perform the above operations repeatedly until the user chooses to exit.
-
 */
 
 #include <stdio.h>
