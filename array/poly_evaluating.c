@@ -56,7 +56,8 @@ int main() {
     for (int i = 0; i <= DEGREE; i++) {
         int term = coeffs[i];
         for (int j = 0; j < i; j++) {
-            term *= x;  // term = coeffs[i] * (x^i)
+            term *= x;  // term = coeffs[i] * (x^i) //  x^3  : x= 2 , 2^3 =  2 * 2 * 2 
+            // 4 *2 // 8 *2 // 16 *2  = 32
         }
         result += term;
     }
