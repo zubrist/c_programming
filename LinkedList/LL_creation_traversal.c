@@ -50,6 +50,8 @@ int main(){
     /*
          first = 10
     */
+    head = one ;
+ 
     one-> data = 5; //= first
     two-> data = 7;
     three-> data = 10;
@@ -60,8 +62,7 @@ int main(){
     two-> ptr = three;
     three-> ptr = NULL;
 
-    head = one ;
-
+    
     display(head);// priting the linkedList
 
     return 0;
