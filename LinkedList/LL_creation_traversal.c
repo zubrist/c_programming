@@ -32,7 +32,7 @@ void display(struct Node * next)
 }
 
 int main(){
-
+    // print( "How many nodes you want to create ? : " );
     // initialize nodes
     struct Node *head= NULL; 
     struct Node *one = NULL;
@@ -51,7 +51,8 @@ int main(){
          first = 10
     */
     head = one ;
- 
+    // prinf(" what is the data of node 1 ? : " );
+    // sacanf("%d", &one->data);
     one-> data = 5; //= first
     two-> data = 7;
     three-> data = 10;
