@@ -7,6 +7,8 @@ struct Node{
 };
 
 
+
+
 void addAtEnd(struct Node **head, int val)
 {
     struct Node *newNode  = malloc(sizeof( struct Node));
@@ -38,26 +40,37 @@ void display(struct Node * head)
     printf("NULL\n");
 }
 
-// frunction to delete node form Front 
 
-void deleteFromFront(struct Node **head){
-    // Case1 : check if the list is empty
+// fuction to delete node from the END
+void deleteFromEnd(struct Node **head){
+    // case 1 : check if the list is empty
     if(*head == NULL){
         printf(" List is EMPTY. \n");
+        // return ;
     }
 
-    // case 2 : otherwise 
+    // Otherwise 
 
-    struct Node *temp =  *head; // temp is pointing the node , the head is pointing to
+    struct Node *temp , *prev;
+    
+    temp = prev = *head; // Both pointing to the start node
+    // prev = *head;
 
-    // Move the head pointer to the next node
+    while(temp->next != NULL){
+        prev = temp ;
+        temp = temp ->next ;
+    }
 
-    *head = (*head)-> next;
+    //  after reaching End of the list 
+    prev->next = NULL ; // Break the line
 
-    // free the deleted node
+    free(temp); // Free the memory of the last node 
 
-    free(temp);
+    printf("Last node deleted. \n");
+
+
 }
+
 
 
 int  main(){
@@ -72,15 +85,23 @@ int  main(){
     display(head);
 
 
-    deleteFromFront(&head);
+    deleteFromEnd(&head);
+
+
+
+    printf("  List  after deletion : \n");
+    display(head);
+
+    deleteFromEnd(&head);
 
     printf("  List  after deletion : \n");
     display(head);
 
 
-    deleteFromFront(&head);
-    deleteFromFront(&head);
-    deleteFromFront(&head); // list is empty
+
+    
+    deleteFromEnd(&head);
+    deleteFromEnd(&head);
 
 
     return 0;
